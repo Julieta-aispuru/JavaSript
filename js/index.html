@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
     <title>Trabajo Practico numero 1</title>
 </head>
 <body>
-    
+    <h1>Carrito de Compras</h1>
+    <div class="productos">
+        <div class="producto" data-nombre="Camiseta" data-precio="15">
+            <h3>Camiseta</h3>
+            <p>Precio: $15</p>
+            <button class="agregar-carrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Pantalón" data-precio="25">
+            <h3>Pantalón</h3>
+            <p>Precio: $25</p>
+            <button class="agregar-carrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Chaqueta" data-precio="50">
+            <h3>Chaqueta</h3>
+            <p>Precio: $50</p>
+            <button class="agregar-carrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Gorra" data-precio="10">
+            <h3>Gorra</h3>
+            <p>Precio: $10</p>
+            <button class="agregar-carrito">Agregar al Carrito</button>
+        </div>
+        <div class="producto" data-nombre="Zapatos" data-precio="35">
+            <h3>Zapatos</h3>
+            <p>Precio: $35</p>
+            <button class="agregar-carrito">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <h2>Tu Carrito</h2>
+    <div class="carrito">
+        <ul id="lista-carrito"></ul>
+        <p id="total">Total: $0</p>
+    </div>
+
 </body>
 <script src="Practica.js"></script>
 </html>
